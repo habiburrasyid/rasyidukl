@@ -1,0 +1,93 @@
+/* admin-style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #495057; /* Default text color */
+}
+
+header {
+    background-color: #343a40; /* Dark background color for header */
+    padding: 15px 0;
+    color: #fff; /* Header text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Navigation link color */
+    font-weight: bold;
+}
+
+.admin-container {
+    display: flex;
+    margin: 20px;
+    background-color: #fff; /* White background for the main container */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+aside {
+    width: 20%;
+    padding: 20px;
+    background-color: #343a40; /* Dark background color for sidebar */
+    color: #fff; /* Sidebar text color */
+}
+
+aside h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.welcome-message {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.admin-content {
+    /* Add your specific styles for the admin content */
+}
+
+footer {
+    background-color: #343a40; /* Dark background color for footer */
+    color: #fff; /* Footer text color */
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
